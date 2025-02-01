@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Praveenpeddinti/static/css/main.a9ab7e06.css",
-    "main.js": "/Praveenpeddinti/static/js/main.6a38674c.js",
+    "main.js": "/Praveenpeddinti/static/js/main.c027e836.js",
     "index.html": "/Praveenpeddinti/index.html",
     "main.a9ab7e06.css.map": "/Praveenpeddinti/static/css/main.a9ab7e06.css.map",
-    "main.6a38674c.js.map": "/Praveenpeddinti/static/js/main.6a38674c.js.map"
+    "main.c027e836.js.map": "/Praveenpeddinti/static/js/main.c027e836.js.map"
   },
   "entrypoints": [
     "static/css/main.a9ab7e06.css",
-    "static/js/main.6a38674c.js"
+    "static/js/main.c027e836.js"
   ]
 }
