@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Praveenpeddinti/static/css/main.a9ab7e06.css",
+    "main.js": "/Praveenpeddinti/static/js/main.fc4d16a5.js",
+    "index.html": "/Praveenpeddinti/index.html",
+    "main.a9ab7e06.css.map": "/Praveenpeddinti/static/css/main.a9ab7e06.css.map",
+    "main.fc4d16a5.js.map": "/Praveenpeddinti/static/js/main.fc4d16a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9ab7e06.css",
+    "static/js/main.fc4d16a5.js"
+  ]
+}
