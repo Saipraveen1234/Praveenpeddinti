@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ProjectImage = ({ imageName, alt, className = "" }) => {
+const ProjectImage = ({ imageName, alt, className = "", imgClassName = "" }) => {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
   const BASE_PATH = process.env.PUBLIC_URL;
@@ -52,15 +52,15 @@ const ProjectImage = ({ imageName, alt, className = "" }) => {
           <div className="w-10 h-10 border-4 border-black/20 border-t-black/60 rounded-full animate-spin"></div>
         </div>
       )}
-      
-      <img 
+
+      <img
         src={currentPath}
         alt={alt || "Project image"}
         onError={handleError}
-        onLoad={handleLoad} 
-        className={`w-full h-full object-cover transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}
+        onLoad={handleLoad}
+        className={`w-full h-full transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'} ${imgClassName || 'object-cover'}`}
       />
-      
+
       {error && (
         <div className="absolute inset-0 bg-gray-200 flex flex-col items-center justify-center text-gray-500">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
